@@ -1,60 +1,66 @@
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body class="w-screen h-screen bg-slate-600">
-  
-  <nav>
-    
-  </nav>
-
-  <div id="inicio">
-    
-  </div>
-
-  <div id="bola">
-
-  </div>
-
-  <div id="carrossel">
-
-  </div >
-
-  <div id="jogo">
-
-  </div>
-
-  <div id="comentrarios">
-
-    <div id="comentario" class="bg-white">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body class="w-screen h-screen bg-slate-600 bg-fundo">
+    <div
+      class="w-full h-14 flex justify-between px-[200px] bg-[#22223F] p-10 items-center"
+    >
+      <img src="assets/logo.svg" class="w-[170px] h-[45px]" />
+      <nav class="flex justify-end items-center">
+        <a class="text-xl text-[white] font-bold pr-10">sobre nós</a>
+        <a class="text-xl text-[white] font-bold pr-10"> jogos</a>
+        <a class="text-xl text-[white] font-bold pr-10"> novidades</a>
+        <a class="pr-5"><img src="assets/user.svg" class="w-10 h-10" /></a>
+        <img src="assets/carrinho.svg" class="w-10 h-10" />
+      </nav>
     </div>
 
-  </div>
+    <div id="inicio">
+      <div class="px-[200px] flex justify-between">
+        <div class="py-10 pr-4 w-[600px]">
+          <h1 class="font-bold text-azul text-[48px] leading-none">STRIVE</h1>
+          <h1 class="font-bold text-rosa text-[48px] leading-none">
+            FOR THE NEXT LEVEL
+          </h1>
+          <p class="text-[white] text-right font-medium">
+            Explore mundos incríveis, enfrente desafios épicos e crie memórias
+            duradouras com os nossos jogos de última geração. Seja você um
+            jogador casual ou um competidor dedicado, temos algo especial para
+            todos.
+          </p>
+        </div>
+        <div>
+          <img
+            src="assets/inicio.svg"
+            class="fixed"
+            width="550px"
+            height="500px"
+          />
+        </div>
+      </div>
+    </div>
 
-  <div id="pricipios">
+    <div id="bola"></div>
 
-  </div>
+    <div id="carrossel"></div>
 
-  <div id="statisticas">
+    <div id="jogo"></div>
 
-  </div>
+    <div id="comentrarios">
+      <div id="comentario" class="bg-white"></div>
+    </div>
 
-  <div id="newsladder">
+    <div id="pricipios"></div>
 
-  </div>
+    <div id="statisticas"></div>
 
-  <footer>
+    <div id="newsladder"></div>
 
-  </footer>
-
-</body>
+    <footer></footer>
+  </body>
 </html>
 <router-outlet></router-outlet>
