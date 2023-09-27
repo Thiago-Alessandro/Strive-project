@@ -96,7 +96,6 @@
     }
   },
   "cli": {
-
     "analytics": false
   }
 }
