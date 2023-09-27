@@ -6,3 +6,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.carrossel-title{
+    color: #FFF;
+text-align: justify;
+font-family: 'Montserrat', sans-serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.bola-title{
+    font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.bola-text{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.bola-button{
+    font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
