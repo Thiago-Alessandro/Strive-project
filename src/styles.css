@@ -1,12 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 *{
     font-family: 'Montserrat', sans-serif;
+    background-color: #12122A;
 }
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 .carrossel-title{
     color: #FFF;
@@ -16,6 +16,7 @@ font-size: 48px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+
 }
 .bola-title{
     font-size: 36px;
