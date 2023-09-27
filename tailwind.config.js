@@ -7,7 +7,7 @@ module.exports = {
       'fundo':"#12122A",
       'rosa':'#FF75F8',
       'azul':'#AEF9FD',
-      "header":"#22223F"
+      "header":"#22223F",
     },
     fontFamily: {
       sans: ['Montserrat', 'sans-serif'],
@@ -15,5 +15,3 @@ module.exports = {
   },
   plugins: [],
 }
-
-// git commit -m "aditional configs"

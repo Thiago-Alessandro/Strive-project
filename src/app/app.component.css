@@ -1,0 +1,17 @@
+
+.borda {
+    border-radius: 10px;
+    border: 1px solid #9EEEFE;
+    box-shadow: 1px 1px 10px 0px #9EEEFE;
+}
+
+.text-inicio{
+     color: #FFF;
+    text-align: right;
+    font-family: "Montserrat",sans-serif ;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+

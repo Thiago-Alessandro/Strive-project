@@ -1,40 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
 </head>
+
 <body class="w-screen h-screen bg-fundo">
 
-  <nav>
-  </nav>
-
-  <div id="inicio">
-
-  </div>
-
-  <div id="bola">
-
-  </div>
-
-  <div id="carrossel">
-
-  </div >
-
-  <div id="jogo">
+  <div class="w-full h-14 flex justify-between px-[200px] bg-[#22223F] p-10 items-center">
+    <img src="assets/logo.svg" class="w-[170px] h-[45px] bg-[#22223F]" />
+    <nav class="flex justify-end items-center bg-[#22223F]">
+      <a class="text-xl text-[white] font-bold pr-10 bg-[#22223F]">sobre nós</a>
+      <a class="text-xl text-[white] font-bold pr-10 bg-[#22223F]"> jogos</a>
+      <a class="text-xl text-[white] font-bold pr-10 bg-[#22223F]"> novidades</a>
+      <a class="pr-5 bg-[#22223F]"><img src="assets/user.svg" class="w-10 h-10 bg-[#22223F]" /></a>
+      <img src="assets/carrinho.svg" class="w-10 h-10 bg-[#22223F]" />
+    </nav>
 
   </div>
 
-  <div id="comentrarios">
+  <div id="inicio" class="w-full pt-20 mb-[300px]">
+    <div class="px-[200px] flex justify-between w-full">
+      <div class="py-[100px]  w-max">
+        <h1 class="font-bold text-azul text-[60px] leading-none">STRIVE</h1>
+        <h1 class="font-bold text-rosa text-[60px] leading-none pb-12">
+          FOR THE NEXT LEVEL
+        </h1>
+        <p class="text-[white] text-right font-medium text-[24px] pr-[100px] text-inicio">
+          Explore mundos incríveis, enfrente desafios épicos e crie memórias
+          duradouras com os nossos jogos de última geração. Seja você um
+          jogador casual ou um competidor dedicado, temos algo especial para
+          todos.
+        </p>
+        <div>
+          <button class="bg-azul text-fundo w-[250px] h-[78px] rounded-xl text-2xl font-bold my-12">Vamos
+            Jogar!</button>
+        </div>
+      </div>
+      <div class="w-full justify-end flex relative ">
+        <img src="assets/inicio.svg" class="absolute" width="550px" height="500px" />
+      </div>
+    </div>
 
   </div>
 
-  <div id="pricipios">
+  <div id="bola" class="w-full flex pl-[167px] gap-[94px] h-max items-center relative py-[96px] bg-fundo">
+    <div id="containerImg" class="flex flex-col gap-[31px]">
+      <div class="flex items-end">
+        <img src="assets/imagemBola1.svg" alt="">
+        <img src="assets/imagemBola2.svg" alt="">
+      </div>
+      <div class="flex">
+        <img src="assets/imagemBola3.svg" alt="">
+        <img src="assets/imagemBola4.svg" alt="">
+      </div>
+    </div>
+    <div class="flex flex-col gap-8 items-start ">
+      <div class="flex flex-col gap-6 w-[550px]">
+        <h2 class="bola-title text-rosa">Os Games Mudam Vidas</h2>
+        <p class="text-[white] bola-text">Todos nós sabemos que os jogos mudam vidas, e a Strive tem como objetivo mudar
+          a vida de milhares de pessoas
+          com seus jogos, desde nossos time de desenvolvimento, que luta todos os dias para criar uma experiência
+          incrível para os jogadores, quanto você, nosso jogador que </p>
+      </div>
+      <button class="text-fundo bg-azul py-4 px-8 font-bold rounded-xl">Veja mais</button>
+    </div>
 
+
+    <img src="assets/bola.svg" alt="" class="absolute right-0">
   </div>
 
-  <!-- Div para separar estatísticas da newsletter -->
+  <div id="carrossel" class="flex flex-col gap-[106px] w-full items-center py-20 bg-fundo">
+    <div id="cards + title" class="flex flex-col gap-[54px] w-full items-center ">
+      <p class="carrossel-title">NOSSOS JOGOS</p>
+      <div class="flex justify-center gap-[96px]">
+
+        <img src="assets/setaEsquerda.svg" alt="">
+        <div class="flex w-full gap-10 justify-center" id="cards container">
+          <img src="assets/img2.svg" width="200px" height="200px" alt="">
+          <img src="assets/img3.svg" width="280px" height="280px" alt="">
+          <img src="assets/img1.svg" width="360px" height="360px" alt="">
+          <img src="assets/img5.svg" width="280px" height="280px" alt="">
+          <img src="assets/img4.svg" width="200px" height="200px" alt="">
+
+        </div>
+        <img src="assets/setaDireita.svg" alt="">
+      </div>
+
+
+      <div class="w-[305px] h-[13px] bg-rosa rounded-3xl">
+
+      </div>
+    </div>
+  </div>
+
+  <div id="jogo"></div>
+
+
+
+  <div id="feedback" class="p-32">
+
+
+    <div id="tituloFeedback" class="text-[white] text-6xl font-bold w-[990px]">
+      AVALIAÇÃO DOS NOSSOS USUÁRIOS:
+    </div>
+
+    <div id="comentrarios" class="h-[360px] flex justify-between items-center mt-32">
+
+      <div id="comentario1" class="bg-[white] h-[344px] w-[495px] p-5 rounded-xl">
+
+        <div class="comentarioHeader flex justify-around items-center text-4xl">
+
+          <img src="../assets/Pedro.svg" alt="">
+
+          <div class="nome items-center mr-16">
+            Pedro Carmen
+          </div>
+
+        </div>
+
+        <div class="comentarioTexto flex items-center text-justify text-2xl pt-4">
+          "Aventuras Espaciais é simplesmente fenomenal! Os gráficos são de tirar o fôlego,
+          a trilha sonora é cativante e a jogabilidade é suave e envolvente.
+          Este é um dos melhores jogos que já joguei!"
+        </div>
+
+        <div class="avaliacao flex justify-end p-4">
+          <img src="../assets/estrela.svg" alt="">
+          <img src="../assets/estrela.svg" alt="">
+          <img src="../assets/estrela.svg" alt="">
+          <img src="../assets/estrela.svg" alt="">
+          <img src="../assets/estrela.svg" alt="">
+        </div>
+
+      </div>
+
+      <div id="comentario2" class="bg-[white] h-[344px] w-[495px] p-5 rounded-xl">
+
+        <div class="comentarioHeader flex justify-around items-center text-4xl">
+
+          <img src="../assets/Maria.svg" alt="">
+
+          <div class="nome items-center mr-16">
+            Maria Antonieta
+          </div>
+
+        </div>
+
+        <div class="comentarioTexto flex items-center text-justify text-2xl pt-4">
+          "Reinos Mágicos é impressionante com mundos maravilhosamente detalhados e uma história envolvente.
+          Eu só queria que fosse um pouco mais longo, mas ainda assim,
+          vale a pena cada minuto!"
+        </div>
+
+        <div class="avaliacao flex justify-end p-4">
+          <img src="../assets/estrela.svg" alt="">
+          <img src="../assets/estrela.svg" alt="">
+          <img src="../assets/estrela.svg" alt="">
+          <img src="../assets/estrela.svg" alt="">
+        </div>
+
+      </div>
+
+
+      <div id="comentario3" class="bg-[white] h-[344px] w-[495px] p-5 rounded-xl">
+
+        <div class="comentarioHeader flex justify-around items-center text-4xl">
+
+          <img src="../assets/Emerson.svg" alt="">
+
+          <div class="nome items-center mr-16">
+            Emerson Andrei
+          </div>
+
+        </div>
+
+        <div class="comentarioTexto flex items-center text-justify text-2xl pt-4">
+          "Defensores da Cidade é um jogo que vicia! A ação é intensa,
+          os controles são intuitivos e os gráficos são de cair o queixo.
+          Eu não consigo parar de jogar, O jogo é muito bom!"
+        </div>
+
+        <div class="avaliacao flex justify-end p-4">
+          <img src="../assets/estrela.svg" alt="">
+          <img src="../assets/estrela.svg" alt="">
+          <img src="../assets/estrela.svg" alt="">
+          <img src="../assets/estrela.svg" alt="">
+          <img src="../assets/estrela.svg" alt="">
+        </div>
+
+      </div>
+    </div>
+    </div>
+
+
+        <div id="pricipios" class="bg-[#12122A]">
+      <p class="text-[#FCFCFC] text-5xl text-center font-bold ">PRINCÍPIOS<p>
+        <div id="missão" class="pl-[366px] pb-10 pt-10">
+          <div class="borda rounded-lg shadow-[#9EEEFE] shadow-md flex border border-[#9EEEFE] justify-center w-[1190px] h-[254px]">
+            <img src="../assets/missao.svg" alt="Ícone Missão" width="195.5" height="195.5" >
+            <div>
+              <p class="text-[#FCFCFC] text-3xl pl-6 p-6  font-bold">MISSÃO</p>
+              <p class="text-[#FCFCFC] text-opacity-80 text-2xl pl-6 w-[898px] font-normal leading-normal">
+                Nossa missão é criar experiências de jogos excepcionais que inspirem os jogadores em todo o mundo. Buscamos a inovação e a excelência, 
+                garantindo um entretenimento de alta qualidade e emocionantes desafios para os usuários, construindo, também, uma comunidade entre os usuários.
+              </p>
+        </div>
+        </div>
+      </div>
+      <div id="visão" class="pl-[366px] pb-10 pt-10">
+        <div class="borda rounded-lg shadow-[#9EEEFE] shadow-md flex border border-[#9EEEFE] justify-center w-[1190px] h-[254px]">
+          <img src="../assets/visao.svg" alt="Ícone Visão" width="189.6" height="169.2" >
+          <div>
+            <p class="text-[#FCFCFC] text-3xl pl-6 p-6  font-bold">VISÃO</p>
+            <p class="text-[#FCFCFC] text-justify text-opacity-80 text-2xl pl-6 w-[898px] font-normal leading-normal">
+              Nossa visão é moldar o cenário dos jogos, impulsionando a evolução constante da indústria do entretenimento e permitindo aos
+               jogadores o melhor do mercado, através da nossa força de vontade na criação de mundos virtuais.
+            </p>
+      </div>
+      </div>
+    </div>
+    <div id="valores" class="pl-[366px] pb-10 pt-10">
+      <div class="borda rounded-lg  flex border border-[#9EEEFE] justify-center w-[1190px] h-[254px]">
+        <img src="../assets/valores.svg" alt="Ícone Valores" width="199.41" height="199.41" >
+        <div>
+          <p class="text-[#FCFCFC] text-3xl pl-6 p-6  font-bold">VALORES</p>
+          <p class="text-[#FCFCFC] text-opacity-80 text-2xl pl-6 w-[898px] font-normal leading-normal">
+            Nossos principais valores são: inovação, qualidade, comunidade, trabalho em equipe, integridade e paixão. Com isso, estamos comprometidos com a busca de melhorar 
+            a qualidade de nossos jogos, trazendo novidades e propiciando interação entre o público.
+          </p>
+    </div>
+    </div>
+  </div>
+  </div>
+
+      <div id="statisticas"><!-- Div para separar estatísticas da newsletter -->
   <div class="space-y-64">
 
   <div class="w-full flex flex-row justify-center items-center space-x-20" id="statisticas">
@@ -95,10 +297,10 @@
           </p>
         </div>
     </div>
+    </div>
 
-  </div>
-
-  <div class="w-full">
+      <div id="newsladder">
+      <div class="w-full">
 
     <div class="bg-gradient-to-r from-[#3E3E7E] to-[#544D88F5] w-2/3 h-96 shadow rounded-br-[50px] flex flex-row rounded-tr-lg">
       <div class= "basis-3/5 self-center space-y-6 ml-14">
@@ -135,19 +337,16 @@
 
           <!-- Botão de Inscrever-se -->
           <div class="flex justify-center">
-            <button class="w-32 h-8 text-sm bg-[#9EEEFE] font-bold rounded-md">Inscrever</button>
+            <button class="w-32 h-8 text-sm bg-[#9EEEFE] font-bold rounded-lg">Inscrever</button>
           </div>
         </form>
       </div>
     </div>
+        </div>
 
-  </div>
-</div>
 
-  <footer>
-
-  </footer>
-
+      <footer></footer>
 </body>
+
 </html>
 <router-outlet></router-outlet>
