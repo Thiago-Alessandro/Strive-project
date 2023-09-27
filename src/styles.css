@@ -11,6 +11,14 @@ body{
 @tailwind components;
 @tailwind utilities;
 
+
+.borda {
+    border-radius: 10px;
+    border: 1px solid #9EEEFE;
+    -webkit-box-shadow: 4px 4px 40px 0px rgba(158,238,254,1);
+    -moz-box-shadow: 4px 4px 40px 0px rgba(158,238,254,1);
+    box-shadow: 4px 4px 40px 0px rgba(158,238,254,1);
+
 .carrossel-title{
     color: #FFF;
 text-align: justify;
