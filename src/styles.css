@@ -3,9 +3,14 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body{
+    background-color: #12122A !important;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 .borda {
     border-radius: 10px;
@@ -13,4 +18,33 @@
     -webkit-box-shadow: 4px 4px 40px 0px rgba(158,238,254,1);
     -moz-box-shadow: 4px 4px 40px 0px rgba(158,238,254,1);
     box-shadow: 4px 4px 40px 0px rgba(158,238,254,1);
+
+.carrossel-title{
+    color: #FFF;
+text-align: justify;
+font-family: 'Montserrat', sans-serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+.bola-title{
+    font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.bola-text{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.bola-button{
+    font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
